@@ -1,0 +1,105 @@
+[
+        {
+                "list":[
+                {
+                        "card": "走进四海",
+                        "item": [
+                                {
+                                        "url": "/itemCard/into",
+                                        "name": "四海简介"
+                                },
+                                {
+                                        "url": "/itemCard/honor",
+                                        "name": "荣誉证书"
+                                }
+                        ]
+                },
+                {
+                        "card": "服务项目",
+                        "item": [
+                                {
+                                        "url": "/itemCard/server",
+                                        "name": "服务项目"
+                                }
+                        ]
+                },
+                {
+                        "card": "施工案例",
+                        "item": [
+                                {
+                                        "url": "/itemCard/case/protect",
+                                        "name": "成品保护"
+                                },
+                                {
+                                        "url": "/itemCard/case/cleaning",
+                                        "name": "保洁"
+                                },
+                                {
+                                        "url": "/itemCard/case/spiderman",
+                                        "name": "外墙清洗"
+                                },
+                                {
+                                        "url": "/itemCard/case/renovation",
+                                        "name": "石材翻新"
+                                },
+                                {
+                                        "url": "/itemCard/case/housekeeping",
+                                        "name": "家政服务"
+                                },
+                                {
+                                        "url": "/itemCard/case/liftAttendant",
+                                        "name": "电梯司机"
+                                },
+                                {
+                                        "url": "/itemCard/case/parkingManage",
+                                        "name": "停车管理"
+                                },
+                                {
+                                        "url": "/itemCard/case/fireEngineering",
+                                        "name": "消防工程"
+                                },
+                                {
+                                        "url": "/itemCard/case/demolitionEngineering",
+                                        "name": "拆迁工程"
+                                }
+                        ]
+                },
+                {
+                        "card": "团队风采",
+                        "item": [
+                                {
+                                        "url": "/itemCard/team",
+                                        "name": "风采展示"
+                                }
+                        ]
+                },
+                {
+                        "card": "新闻中心",
+                        "item": [
+                                {
+                                        "url": "/itemCard/news",
+                                        "name": "新闻中心"
+                                }
+                        ]
+                },
+                {
+                        "card": "人才招聘",
+                        "item": [
+                                {
+                                        "url": "/itemCard/talents",
+                                        "name": "招聘详情"
+                                }
+                        ]
+                },
+                {
+                        "card": "联系我们",
+                        "item": [
+                                {
+                                        "url": "/itemCard/contact",
+                                        "name": "联系方式"
+                                }
+                        ]
+                }
+        ]
+        }
+]

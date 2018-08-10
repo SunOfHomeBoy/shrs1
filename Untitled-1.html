@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="../node_modules/viewerjs/dist/viewer.min.css">
+  <style>
+    .home {
+      transition: 1000ms;
+      background: red;
+    }
+
+    .low {
+      transition: 1000ms;
+      background: blue;
+    }
+
+    .heigh {
+      transition: 1000ms;
+      background: greenyellow
+    }
+
+    .flexb {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #dowebok img {
+      width: 200px;
+    }
+  </style>
+  <style>
+    .container {
+      width: 100px;
+      margin: 20px auto 0;
+    }
+
+    .container div {
+      width: 100px;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .cont {
+      transform: rotateZ(60deg);
+    }
+
+    .inner {
+      transform: rotateZ(-120deg);
+      background: red;
+      cursor: pointer;
+    }
+
+    .inner:hover {
+      background: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="home row">
+      <div class="col-lg-2 col-md-5 col-sm-3 col-xs-6 low">123</div>
+      <div class="col-lg-1 col-md-5 col-sm-3 col-xs-6 heigh">456</div>
+    </div>
+  </div>
+
+  <div class="flexb">
+    <span>123</span>
+    <span>123</span>
+    <span>123</span>
+    <span>123</span>
+    <span>123</span>
+    <span>123</span>
+    <span>123</span>
+    <span>123</span>
+  </div>
+  <ul id="dowebok">
+    <li class=''>
+      <img src="http://i2.tiimg.com/611341/bd70fa26940b3206.jpg" alt="图片1" />
+    </li>
+    <li class=''>
+      <img src="http://i2.tiimg.com/611341/bd70fa26940b3206.jpg" alt="图片2" />
+    </li>
+    <li class=''>
+      <img src="http://i2.tiimg.com/611341/bd70fa26940b3206.jpg" alt="图片3" />
+    </li>
+    <li class=''>
+      <img src="http://i2.tiimg.com/611341/bd70fa26940b3206.jpg" alt="图片4" />
+    </li>
+    <li class=''>
+      <img src="http://i2.tiimg.com/611341/bd70fa26940b3206.jpg" alt="图片5" />
+    </li>
+    <li class=''>
+      <img src="http://i2.tiimg.com/611341/bd70fa26940b3206.jpg" alt="图片6" />
+    </li>
+  </ul>
+
+  <div>
+    <div class="container">
+      <div class="wrapper">
+        <div class="cont">
+          <div class="inner">
+            <img src="" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../node_modules/viewerjs/dist/viewer.min.js"></script>
+  <script>
+    var viewer = new Viewer(document.getElementById('dowebok'), {
+      inline: false
+    });
+    console.log(viewer);
+  </script>
+</body>
+
+</html>

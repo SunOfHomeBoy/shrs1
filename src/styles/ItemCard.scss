@@ -1,0 +1,79 @@
+.ItemCard {
+        .top {
+                width: 100%;
+                img {
+                        width: 100%;
+                        height: auto;
+                }
+        }
+        .content {
+                box-sizing: border-box;
+                max-width: 1200px;
+                margin: 0 auto;
+                .list {
+                        h2 {
+                                height: 48px;
+                                padding: 0 10px;
+                                color: #fff;
+                                font: bold 20px/48px Microsoft YaHei;
+                                background: #e12444;
+                                border-bottom: 1px solid #ededed;
+                        }
+                        dl {
+                                dt {
+                                        a:hover {
+                                                color: #fff;
+                                                background: #e12444;
+                                                border-color: #ff3758;
+                                        }
+                                        span {
+                                                display: block;
+                                                height: 36px;
+                                                padding-left: 15px;
+                                                color: #403f3f;
+                                                font: 14px/36px Microsoft YaHei;
+                                                border: 1px solid #f9f9f9;
+                                                border-left: 1px solid #ededed;
+                                                border-right: 1px solid #ededed;
+                                        }
+                                        span:hover {
+                                                cursor: pointer;
+                                                color: #fff;
+                                                background: #e12444;
+                                                border-color: #ff3758;
+                                        }
+                                        span.show {
+                                                color: #fff;
+                                                background: #e12444;
+                                                border-color: #ff3758;
+                                        }
+                                }
+                                dd {
+                                        overflow: hidden;
+                                        height: 0;
+                                        transition: all .5s;
+                                        a {
+                                                display: block;
+                                                height: 36px;
+                                                padding-left: 25px;
+                                                color: #403f3f;
+                                                font: 14px/36px Microsoft YaHei;
+                                                border: 1px solid #f9f9f9;
+                                                border-left: 1px solid #ededed;
+                                                border-right: 1px solid #ededed;
+                                        }
+                                        a:hover {
+                                                color: #e12444;
+                                        }
+                                        a.router-link-exact-active {
+                                                color: #f00;
+                                        }
+                                }
+                        }
+                }
+        }
+        .article {
+                box-sizing: border-box;
+                padding: 15px;
+        }
+}
