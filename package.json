@@ -12,7 +12,7 @@
         },
         "scripts": {
                 "dev": "./node_modules/.bin/clear && ./node_modules/.bin/cross-env NODE_ENV=development /home/LiSC/.tnvm/versions/alinode/v3.8.3/bin/webpack-dev-server --mode development --config webpack.dev.js",
-                "build": "./node_modules/.bin/clear && rm -rf ./dist && ./node_modules/.bin/cross-env NODE_ENV=production /home/LiSC/.tnvm/versions/alinode/v3.8.3/bin/webpack --mode production --config webpack.dev.js"
+                "build": "clear && rm -rf ./dist && NODE_ENV=production ./node_modules/.bin/webpack --mode production --config webpack.dev.js"
         },
         "dependencies": {
                 "@types/axios": "^0.14.0",
