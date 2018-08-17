@@ -106,39 +106,6 @@ export const routes: any[] = [
                                                                 path: ':id',
                                                                 component: Construction.Protect
                                                         }
-                                                        // ,
-                                                        // {
-                                                        //         path: 'cleaning',
-                                                        //         component: Construction.Cleaning
-                                                        // },
-                                                        // {
-                                                        //         path: 'spiderman',
-                                                        //         component: Construction.Spiderman
-                                                        // },
-                                                        // {
-                                                        //         path: 'renovation',
-                                                        //         component: Construction.Renovation
-                                                        // },
-                                                        // {
-                                                        //         path: 'housekeeping',
-                                                        //         component: Construction.Housekeeping
-                                                        // },
-                                                        // {
-                                                        //         path: 'liftAttendant',
-                                                        //         component: Construction.LiftAttendant
-                                                        // },
-                                                        // {
-                                                        //         path: 'parkingManage',
-                                                        //         component: Construction.ParkingManage
-                                                        // },
-                                                        // {
-                                                        //         path: 'fireEngineering',
-                                                        //         component: Construction.FireEngineering
-                                                        // },
-                                                        // {
-                                                        //         path: 'demolitionEngineering',
-                                                        //         component: Construction.Demolition
-                                                        // }
                                                 ]
                                         },
                                         {

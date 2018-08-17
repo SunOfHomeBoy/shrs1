@@ -6,5 +6,5 @@ export const settings: any = {
         pathHome: '/',
         pathAPI: !process.env.production
                 ? 'http://localhost:10007' || 'http://192.168.0.191:10007'
-                : 'http://www.shrs2006.com' || 'http://123.58.7.38/cgi-bin'
+                : 'http://www.shrs2006.com/cgi-bin'
 }
